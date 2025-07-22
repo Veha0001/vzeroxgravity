@@ -16,6 +16,14 @@ h2 {
   padding-bottom: 40px;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 6px;
+  /* padding-block: 40px; */
+}
+
 main {
     background: url("index/default.jpg") , #000;
     background-attachment: fixed;
@@ -90,7 +98,7 @@ li {
   min-height: 10vh;
   height: 100%;
   width: 100%;
-  padding: 0 60px;
+  padding: 50px 187px;
   gap: 30px;
   justify-content: space-between;
 }
@@ -115,22 +123,31 @@ li {
   font-size: 18px;
   text-align: center;
 }
+
+.hero_x {
+    width: 350px;
+}
+
 .btn {
   padding: 8px 5%;
+  display: inline-block;
+  /* grid: unset; */
+  text-align: center;
   background: #fff;
   border-radius: 12px;
+  width: 280px;
   border: none;
   cursor: pointer;
   transition: all 0.6s ease;
 }
 .btn:last-child {
   border: 2px solid #fff;
-  background: transparent;
+  background: radial-gradient(black, transparent);
   color: #fff;
 }
 .btn:last-child:hover {
   background-color: #fff;
-  color: #333;
+  color: #ffffff;
 }
 .hero_img {
   width: 100%;
